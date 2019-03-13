@@ -4,6 +4,8 @@ plugins {
 }
 
 apply plugin: 'io.spring.dependency-management'
+apply plguin: 'jar'
+apply plugin: 'war'
 
 group = 'com.teddy_pear'
 version = '0.0.1-SNAPSHOT'
