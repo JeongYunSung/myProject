@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 
-    @RequestMapping("/")
+    @RequestMapping("/example")
     public String first() {
         return "test";
     }
 
-    @RequestMapping("/test")
+    @RequestMapping("/example/test")
     public String get(){
         return "test";
     }
